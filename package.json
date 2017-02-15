@@ -1,0 +1,46 @@
+{
+  "name": "hapi-myip",
+  "version": "1.0.0",
+  "description": "SSO poc",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "poc",
+    "Telemark fylkeskommune"
+  ],
+  "standard": {
+    "ignore": [
+      "public"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/hapi-myip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/hapi-myip/issues"
+  },
+  "now": {
+    "alias": [
+      "myip.hapi.allthethings.win"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "dependencies": {
+    "hapi": "16.1.0"
+  }
+}
